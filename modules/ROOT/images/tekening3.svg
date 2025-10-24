@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export Tekening3 v2- van gemeente naar eiland.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.15986in" height="6.08827in"
+		viewBox="0 0 587.51 438.355" xml:space="preserve" color-interpolation-filters="sRGB" class="st25">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#4672c4;stroke:#4672c4;stroke-width:0.25}
+		.st2 {stroke:#4672c4;stroke-dasharray:7,5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st3 {fill:#feffff;font-family:Calibri;font-size:0.75em;font-weight:bold}
+		.st4 {marker-end:url(#mrkr4-71);stroke:#4672c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:#4672c4;fill-opacity:1;stroke:#4672c4;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st6 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st7 {fill:#3c63ac;font-family:Calibri;font-size:0.75em}
+		.st8 {marker-end:url(#mrkr4-86);stroke:#538135;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st9 {fill:#538135;fill-opacity:1;stroke:#538135;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st10 {fill:#538135;font-family:Calibri;font-size:0.75em}
+		.st11 {marker-end:url(#mrkr4-94);stroke:#c55a11;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st12 {fill:#c55a11;fill-opacity:1;stroke:#c55a11;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st13 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st14 {fill:#c55a11;font-family:Calibri;font-size:0.75em}
+		.st15 {marker-end:url(#mrkr4-123);stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st16 {fill:#c00000;fill-opacity:1;stroke:#c00000;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st17 {fill:#c00000;font-family:Calibri;font-size:0.75em}
+		.st18 {fill:#538135;fill-opacity:0;stroke:#538135;stroke-width:1}
+		.st19 {fill:#538135;stroke:#538135;stroke-width:1}
+		.st20 {fill:#ffffff;font-family:Calibri;font-size:0.666664em;font-weight:bold}
+		.st21 {fill:#ff6600;fill-opacity:0;stroke:#c55a11;stroke-width:1}
+		.st22 {fill:#c55a11;stroke:#c55a11;stroke-width:1}
+		.st23 {fill:#4672c4;fill-opacity:0;stroke:#c00000;stroke-width:1}
+		.st24 {fill:#c00000;stroke:#c00000;stroke-width:1}
+		.st25 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-71" class="st5" v:arrowType="4" v:arrowSize="3" v:setback="8.48" refX="-8.48" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr4-86" class="st9" v:arrowType="4" v:arrowSize="3" v:setback="8.48" refX="-8.48" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr4-94" class="st12" v:arrowType="4" v:arrowSize="3" v:setback="8.48" refX="-8.48" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr4-123" class="st16" v:arrowType="4" v:arrowSize="3" v:setback="8.48" refX="-8.48" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-4.24,-4.24) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Verbindingslijn" v:index="0"/>
+		<g id="group77-1" transform="translate(0.25,-409.05)" v:mID="77" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Levenslijn van object.77</title>
+			<desc>Gemeente</desc>
+			<g id="shape78-2" v:mID="78" v:groupContext="shape" transform="translate(10.0405,5.68434E-14)">
+				<title>Blad.78</title>
+				<rect x="0" y="412.843" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape79-4" v:mID="79" v:groupContext="shape" transform="translate(27.0484,-29.0551)">
+				<title>Blad.79</title>
+				<path d="M8.5 438.36 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape80-6" v:mID="80" v:groupContext="shape" transform="translate(23.7016,409.05)">
+				<title>Blad.80</title>
+			</g>
+			<g id="shape81-8" v:mID="81" v:groupContext="shape" transform="translate(473.907,438.355) rotate(90)">
+				<title>Blad.81</title>
+				<path d="M0 438.36 L391.43 438.36" class="st2"/>
+			</g>
+			<g id="shape77-11" v:mID="77" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.5524" cy="425.599" width="71.11" height="25.5118"/>
+				<rect x="0" y="412.843" width="71.1047" height="25.5118" class="st1"/>
+				<text x="15.99" y="428.3" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Gemeente</text>			</g>
+		</g>
+		<g id="group82-14" transform="translate(98.1646,-409.05)" v:mID="82" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Levenslijn van object.82</title>
+			<desc>BRP-V</desc>
+			<g id="shape83-15" v:mID="83" v:groupContext="shape" transform="translate(10.0405,5.68434E-14)">
+				<title>Blad.83</title>
+				<rect x="0" y="412.843" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape84-17" v:mID="84" v:groupContext="shape" transform="translate(27.0484,-29.0551)">
+				<title>Blad.84</title>
+				<path d="M8.5 438.36 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape85-19" v:mID="85" v:groupContext="shape" transform="translate(23.7016,409.05)">
+				<title>Blad.85</title>
+			</g>
+			<g id="shape86-21" v:mID="86" v:groupContext="shape" transform="translate(473.907,438.355) rotate(90)">
+				<title>Blad.86</title>
+				<path d="M0 438.36 L391.43 438.36" class="st2"/>
+			</g>
+			<g id="shape82-24" v:mID="82" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.5524" cy="425.599" width="71.11" height="25.5118"/>
+				<rect x="0" y="412.843" width="71.1047" height="25.5118" class="st1"/>
+				<text x="24.06" y="428.3" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>BRP-V</text>			</g>
+		</g>
+		<g id="group87-27" transform="translate(218.756,-409.05)" v:mID="87" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Levenslijn van object.87</title>
+			<desc>PBK-module</desc>
+			<g id="shape88-28" v:mID="88" v:groupContext="shape" transform="translate(10.0405,5.68434E-14)">
+				<title>Blad.88</title>
+				<rect x="0" y="412.843" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape89-30" v:mID="89" v:groupContext="shape" transform="translate(27.0484,-29.0551)">
+				<title>Blad.89</title>
+				<path d="M8.5 438.36 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape90-32" v:mID="90" v:groupContext="shape" transform="translate(23.7016,409.05)">
+				<title>Blad.90</title>
+			</g>
+			<g id="shape91-34" v:mID="91" v:groupContext="shape" transform="translate(473.907,438.355) rotate(90)">
+				<title>Blad.91</title>
+				<path d="M0 438.36 L391.43 438.36" class="st2"/>
+			</g>
+			<g id="shape87-37" v:mID="87" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.5524" cy="425.599" width="71.11" height="25.5118"/>
+				<rect x="0" y="412.843" width="71.1047" height="25.5118" class="st1"/>
+				<text x="12.52" y="428.3" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>PBK-module</text>			</g>
+		</g>
+		<g id="group92-40" transform="translate(431.355,-409.05)" v:mID="92" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Levenslijn van object.92</title>
+			<desc>Eiland A</desc>
+			<g id="shape93-41" v:mID="93" v:groupContext="shape" transform="translate(10.0405,5.68434E-14)">
+				<title>Blad.93</title>
+				<rect x="0" y="412.843" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape94-43" v:mID="94" v:groupContext="shape" transform="translate(27.0484,-29.0551)">
+				<title>Blad.94</title>
+				<path d="M8.5 438.36 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape95-45" v:mID="95" v:groupContext="shape" transform="translate(23.7016,409.05)">
+				<title>Blad.95</title>
+			</g>
+			<g id="shape96-47" v:mID="96" v:groupContext="shape" transform="translate(473.907,438.355) rotate(90)">
+				<title>Blad.96</title>
+				<path d="M0 438.36 L391.43 438.36" class="st2"/>
+			</g>
+			<g id="shape92-50" v:mID="92" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.5524" cy="425.599" width="71.11" height="25.5118"/>
+				<rect x="0" y="412.843" width="71.1047" height="25.5118" class="st1"/>
+				<text x="20.35" y="428.3" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Eiland A</text>			</g>
+		</g>
+		<g id="group97-53" transform="translate(516.156,-409.05)" v:mID="97" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Levenslijn van object.97</title>
+			<desc>Eiland B</desc>
+			<g id="shape98-54" v:mID="98" v:groupContext="shape" transform="translate(10.0405,5.68434E-14)">
+				<title>Blad.98</title>
+				<rect x="0" y="412.843" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape99-56" v:mID="99" v:groupContext="shape" transform="translate(27.0484,-29.0551)">
+				<title>Blad.99</title>
+				<path d="M8.5 438.36 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape100-58" v:mID="100" v:groupContext="shape" transform="translate(23.7016,409.05)">
+				<title>Blad.100</title>
+			</g>
+			<g id="shape101-60" v:mID="101" v:groupContext="shape" transform="translate(473.907,438.355) rotate(90)">
+				<title>Blad.101</title>
+				<path d="M0 438.36 L391.43 438.36" class="st2"/>
+			</g>
+			<g id="shape97-63" v:mID="97" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.5524" cy="425.599" width="71.11" height="25.5118"/>
+				<rect x="0" y="412.843" width="71.1047" height="25.5118" class="st1"/>
+				<text x="20.56" y="428.3" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Eiland B</text>			</g>
+		</g>
+		<g id="shape102-66" v:mID="102" v:groupContext="shape" v:layerMember="0" transform="translate(133.717,-365.963)">
+			<title>Bericht.102</title>
+			<desc>Ag21 Opsturen PL</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="60.2959" cy="431.269" width="75.41" height="18.8036"/>
+			<path d="M0 431.27 L112.11 431.27" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="27.6137" y="425.869" width="65.3643" height="10.7998" class="st6"/>
+			<text x="27.61" y="433.97" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Ag21 Opsturen PL</text>		</g>
+		<g id="shape103-74" v:mID="103" v:groupContext="shape" v:layerMember="0" transform="translate(254.309,-347.963)">
+			<title>Bericht.103</title>
+			<desc>Mm01 Melden aankomende vestiging</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.299" cy="431.269" width="148.53" height="18.8036"/>
+			<path d="M0 431.27 L204.12 431.27" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="37.0568" y="425.869" width="138.485" height="10.7998" class="st6"/>
+			<text x="37.06" y="433.97" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Mm01 Melden aankomende vestiging</text>		</g>
+		<g id="shape104-81" v:mID="104" v:groupContext="shape" v:layerMember="0" transform="translate(466.907,-311.963)">
+			<title>Bericht.104</title>
+			<desc>Mq01 PL verwerkt</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-106.299" cy="431.269" width="76.93" height="18.8036"/>
+			<path d="M0 431.27 L-204.12 431.27" class="st8"/>
+			<rect v:rectContext="textBkgnd" x="-139.742" y="425.869" width="66.8848" height="10.7998" class="st6"/>
+			<text x="-139.74" y="433.97" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Mq01 PL verwerkt</text>		</g>
+		<g id="shape105-89" v:mID="105" v:groupContext="shape" v:layerMember="0" transform="translate(551.708,-257.963)">
+			<title>Bericht.105</title>
+			<desc>Mv01 Opvragen PL</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-148.7" cy="431.269" width="79.07" height="18.8036"/>
+			<path d="M0 431.27 L-288.92 431.27" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="-183.214" y="425.869" width="69.0293" height="10.7998" class="st13"/>
+			<text x="-183.21" y="433.97" class="st14" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Mv01 Opvragen PL</text>		</g>
+		<g id="shape107-97" v:mID="107" v:groupContext="shape" v:layerMember="0" transform="translate(254.309,-221.963)">
+			<title>Bericht.107</title>
+			<desc>Mz01 Opsturen PL op verzoek</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="148.7" cy="431.269" width="119.31" height="18.8036"/>
+			<path d="M0 431.27 L288.92 431.27" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="94.0668" y="425.869" width="109.266" height="10.7998" class="st6"/>
+			<text x="94.07" y="433.97" class="st14" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Mz01 Opsturen PL op verzoek</text>		</g>
+		<g id="shape108-104" v:mID="108" v:groupContext="shape" v:layerMember="0" transform="translate(551.708,-203.963)">
+			<title>Bericht.108</title>
+			<desc>Ma01 PL verwerkt</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-148.7" cy="431.269" width="76.51" height="18.8036"/>
+			<path d="M0 431.27 L-288.92 431.27" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="-181.933" y="425.869" width="66.4673" height="10.7998" class="st6"/>
+			<text x="-181.93" y="433.97" class="st14" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Ma01 PL verwerkt</text>		</g>
+		<g id="shape109-111" v:mID="109" v:groupContext="shape" v:layerMember="0" transform="translate(254.309,-185.963)">
+			<title>Bericht.109</title>
+			<desc>Me01 Melden inschrijving ander eiland</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.299" cy="431.269" width="152.71" height="18.8036"/>
+			<path d="M0 431.27 L204.12 431.27" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="34.965" y="425.869" width="142.668" height="10.7998" class="st6"/>
+			<text x="34.96" y="433.97" class="st14" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Me01 Melden inschrijving ander eiland</text>		</g>
+		<g id="shape111-118" v:mID="111" v:groupContext="shape" v:layerMember="0" transform="translate(254.309,-131.963)">
+			<title>Bericht.111</title>
+			<desc>Mf01 PL niet gevonden</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="148.7" cy="431.269" width="94.62" height="18.8036"/>
+			<path d="M0 431.27 L288.92 431.27" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="106.411" y="425.869" width="84.5771" height="10.7998" class="st6"/>
+			<text x="106.41" y="433.97" class="st17" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Mf01 PL niet gevonden</text>		</g>
+		<g id="shape112-126" v:mID="112" v:groupContext="shape" v:layerMember="0" transform="translate(254.309,-41.9634)">
+			<title>Bericht.112</title>
+			<desc>Vb01 Persoon niet ingeschreven</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-109.253" cy="431.269" width="127.85" height="18.8036"/>
+			<path d="M0 431.27 L-210.03 431.27" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-168.155" y="425.869" width="117.804" height="10.7998" class="st6"/>
+			<text x="-168.16" y="433.97" class="st17" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Vb01 Persoon niet ingeschreven</text>		</g>
+		<g id="group114-133" transform="translate(6.3894,-298.202)" v:mID="114" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDListItemMaster" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+			</v:userDefs>
+			<title>Alternatief fragment.114</title>
+			<g id="shape114-134" v:mID="114" v:groupContext="groupContent">
+				<rect x="0" y="395.24" width="576.5" height="43.1154" class="st18"/>
+			</g>
+			<g id="shape115-136" v:mID="115" v:groupContext="shape" transform="translate(0,-25.5118)">
+				<title>Blad.115</title>
+				<desc>Happy flow: Persoon meldt zich op opgegeven eiland</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.9006" cy="429.553" width="185.81" height="17.6036"/>
+				<path d="M0 438.36 L178.71 438.36 L185.8 431.27 L185.8 420.75 L0 420.75 L0 438.36 Z" class="st19"/>
+				<text x="4" y="431.95" class="st20" v:langID="1043"><v:paragraph/><v:tabList/>Happy flow: Persoon meldt zich op opgegeven eiland</text>			</g>
+		</g>
+		<g id="shape116-139" v:mID="116" v:groupContext="shape" transform="translate(6.3894,-298.202)">
+			<title>Interactieoperand.116</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.8897637795276):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvNotMergeMasterByJustName" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+		</g>
+		<g id="group117-141" transform="translate(6.3894,-100.074)" v:mID="117" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDListItemMaster" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+				<v:ud v:nameU="msvSDContainerLocked" v:val="VT0(1):5"/>
+			</v:userDefs>
+			<title>Alternatief fragment.117</title>
+			<g id="shape117-142" v:mID="117" v:groupContext="groupContent">
+				<rect x="0" y="253.092" width="576.5" height="185.263" class="st21"/>
+			</g>
+			<g id="shape118-144" v:mID="118" v:groupContext="shape" transform="translate(0,-167.66)">
+				<title>Blad.118</title>
+				<desc>Persoon meldt zich op ander eiland</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="63.4571" cy="429.553" width="126.92" height="17.6036"/>
+				<path d="M0 438.36 L119.83 438.36 L126.91 431.27 L126.91 420.75 L0 420.75 L0 438.36 Z" class="st22"/>
+				<text x="4" y="431.95" class="st20" v:langID="1043"><v:paragraph/><v:tabList/>Persoon meldt zich op ander eiland</text>			</g>
+		</g>
+		<g id="shape119-147" v:mID="119" v:groupContext="shape" transform="translate(6.3894,-100.074)">
+			<title>Interactieoperand.119</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.8897637795276):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvNotMergeMasterByJustName" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+		</g>
+		<g id="group120-149" transform="translate(20.0552,-119.171)" v:mID="120" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDListItemMaster" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+			</v:userDefs>
+			<title>Alternatief fragment.120</title>
+			<g id="shape120-150" v:mID="120" v:groupContext="groupContent">
+				<rect x="0" y="395.24" width="548.661" height="43.1154" class="st23"/>
+			</g>
+			<g id="shape121-152" v:mID="121" v:groupContext="shape" transform="translate(0,-25.5118)">
+				<title>Blad.121</title>
+				<desc>Persoon niet gevonden</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="43.2577" cy="429.553" width="86.52" height="17.6036"/>
+				<path d="M0 438.36 L79.43 438.36 L86.52 431.27 L86.52 420.75 L0 420.75 L0 438.36 Z" class="st24"/>
+				<text x="4" y="431.95" class="st20" v:langID="1043"><v:paragraph/><v:tabList/>Persoon niet gevonden</text>			</g>
+		</g>
+		<g id="shape122-155" v:mID="122" v:groupContext="shape" transform="translate(20.0552,-119.171)">
+			<title>Interactieoperand.122</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.8897637795276):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvNotMergeMasterByJustName" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+		</g>
+		<g id="group123-157" transform="translate(19.3093,-174.495)" v:mID="123" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDListItemMaster" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+			</v:userDefs>
+			<title>Alternatief fragment.123</title>
+			<g id="shape123-158" v:mID="123" v:groupContext="groupContent">
+				<rect x="0" y="362.54" width="549.406" height="75.8152" class="st21"/>
+			</g>
+			<g id="shape124-160" v:mID="124" v:groupContext="shape" transform="translate(0,-58.2116)">
+				<title>Blad.124</title>
+				<desc>Persoon gevonden</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.8241" cy="429.553" width="71.65" height="17.6036"/>
+				<path d="M0 438.36 L64.56 438.36 L71.65 431.27 L71.65 420.75 L0 420.75 L0 438.36 Z" class="st22"/>
+				<text x="4" y="431.95" class="st20" v:langID="1043"><v:paragraph/><v:tabList/>Persoon gevonden</text>			</g>
+		</g>
+		<g id="shape125-163" v:mID="125" v:groupContext="shape" transform="translate(19.3093,-174.495)">
+			<title>Interactieoperand.125</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.8897637795276):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvNotMergeMasterByJustName" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+		</g>
+		<g id="group126-165" transform="translate(5.21063,-28.9539)" v:mID="126" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDListItemMaster" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+			</v:userDefs>
+			<title>Alternatief fragment.126</title>
+			<g id="shape126-166" v:mID="126" v:groupContext="groupContent">
+				<rect x="0" y="380.144" width="577.678" height="58.2116" class="st23"/>
+			</g>
+			<g id="shape127-168" v:mID="127" v:groupContext="shape" transform="translate(0,-40.6081)">
+				<title>Blad.127</title>
+				<desc>Persoon meldt zich niet binnen het jaar</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="70.166" cy="429.553" width="140.34" height="17.6036"/>
+				<path d="M0 438.36 L133.25 438.36 L140.33 431.27 L140.33 420.75 L0 420.75 L0 438.36 Z" class="st24"/>
+				<text x="4" y="431.95" class="st20" v:langID="1043"><v:paragraph/><v:tabList/>Persoon meldt zich niet binnen het jaar</text>			</g>
+		</g>
+		<g id="shape128-171" v:mID="128" v:groupContext="shape" transform="translate(5.21063,-28.9539)">
+			<title>Interactieoperand.128</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Interaction operand)"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.8897637795276):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvNotMergeMasterByJustName" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+		</g>
+		<g id="shape321-173" v:mID="321" v:groupContext="shape" v:layerMember="0" transform="translate(35.8024,-383.963)">
+			<title>Bericht.321</title>
+			<desc>Lg01 Synchronisatie</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.9573" cy="431.269" width="82.76" height="18.8036"/>
+			<path d="M0 431.27 L89.43 431.27" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="12.5991" y="425.869" width="72.7163" height="10.7998" class="st6"/>
+			<text x="12.6" y="433.97" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Lg01 Synchronisatie</text>		</g>
+	</g>
+</svg>
