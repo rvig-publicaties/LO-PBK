@@ -4,8 +4,8 @@
 :doctype: book
 :docinfo1:
 :version-label: Versie
-:revnumber: 2025.Q2
-:revdate: 1 april 2025
+:revnumber: 2025.Q4
+:revdate: 11 november 2025
 :!chapter-signifier:
 :appendix-caption: Appendix
 :table-caption: Tabel
@@ -28,7 +28,7 @@
 
 Curaçao, Aruba, Sint Maarten (CAS-eilanden), Bonaire, Sint Eustatius en Saba (BES-eilanden) en Nederland kennen verschillende basisregistraties voor persoonsgegevens. De Europees Nederlandse gemeenten slaan hun bevolkingsadministratie op in de basisregistratie personen (https://www.rvig.nl/lo-brp[BRP]). De zes eilanden doen dat elk in hun eigen https://www.rvig.nl/logisch-ontwerp-bes[PIVA], dat vrijwel identiek is aan de BRP. In het kader van het bestuursakkoord ‘Uitwisseling persoonsgegevens binnen het Koninkrijk’ wisselen die zeven basisregistraties gegevens met elkaar uit over hun inwoners. RvIG beheert de voorziening die ervoor zorgt dat dat op een veilige en betrouwbare manier gebeurt: de PIVA-BRP Koppeling (PBK-module).
 
-Het Logisch Ontwerp PBK beschrijft de opzet en de werking van de PBK-module en de functionele en technische eisen die RvIG stelt aan de erop aansluitende partijen. Die eisen kunnen aan verandering onderhevig zijn. In dat geval publiceert RvIG een <<_versiehistorie>> van het Logisch Ontwerp PBK, met een nieuw <<_versienummering,versienummer>>.
+Het Logisch Ontwerp PBK beschrijft de opzet en de werking van de PBK-module en de functionele en technische eisen die RvIG stelt aan de erop aansluitende partijen. Die eisen kunnen aan verandering onderhevig zijn. In dat geval publiceert RvIG een <<_versiehistorie,nieuwe versie>> van het Logisch Ontwerp PBK, met een nieuw <<_versienummering,versienummer>>.
 
 De eerste versie van het LO PBK trad in werking op 1 september 2001 (bij besluit van de Minister voor Grote Steden- en Integratiebeleid van 27 augustus 2001), nadat de Nederlandse regering op 8 januari 1999 een bestuursakkoord had gesloten met de autoriteiten van het Caribisch deel van het Koninkrijk inzake de uitwisseling van persoonsgegevens tussen de verschillende bevolkingsadministraties.
 
@@ -51,7 +51,7 @@ De volgende pagina’s lichten de verschillende aspecten van de PBK-module nader
 |===
 |Versie |Inhoud
 |2025.Q2 (1 april 2025) |Geheel herziene versie (achterstallig onderhoud, dubbele beschrijvingen eruit, nieuwe afbeeldingen, eenvoudigere structuur).
-|{nbsp} |{nbsp}
+|2025.Q4 (11 november 2025) |Invoering BSN in Caribisch Nederland
 |{nbsp} |{nbsp}
 |{nbsp} |{nbsp}
 |{nbsp} |{nbsp}
@@ -95,7 +95,7 @@ Onderstaand diagram geeft de verschillende componenten van de berichtuitwisselin
 
 [.text-center,#componenten-in-de-berichtenuitwisseling]
 .Componenten in de berichtenuitwisseling
-image::../images/image1-cropped.svg[width=720,pdfwidth=80%]
+image::../images/tekening1.svg[]
 
 === Typen berichten
 
@@ -180,7 +180,7 @@ Onderstaande afbeeldingen geven de berichtencycli weer waarmee de scenario’s w
 
 [.text-center,#berichtenuitwisseling-bij-migratie-van-eiland-naar-gemeente]
 .Berichtenuitwisseling bij een migratie van een eiland naar een Nederlandse gemeente
-image::../images/image2-cropped.svg[width=720,pdfwidth=80%]
+image::../images/tekening2.svg[]
 
 Een persoon komt naar de afdeling burgerzaken op het eiland waar hij momenteel is ingeschreven. Hij meldt daar dat hij gaat emigreren naar Nederland en geeft daarbij de gemeente op waar hij zich wil vestigen. De ambtenaar van dienst registreert de emigratie in PIVA en geeft de persoon een uitschrijfbewijs mee. De PIVA van het eiland stuurt een bericht van de aankomende migratie naar de PBK-module (<<Mo01,Mo01>>), met daarin de persoonsgegevens van de betreffende persoon. De PBK-module slaat die gegevens tijdelijk op, genereert een Vrij bericht (<<Vb01,Vb01>>) en stuurt dat naar de opgegeven gemeente.
 
@@ -188,7 +188,7 @@ Een persoon komt naar de afdeling burgerzaken op het eiland waar hij momenteel i
 
 Zodra de persoon zich in de gemeente meldt, zoekt de ambtenaar van Burgerzaken op basis van het PIVA-uitschrijfbewijs het Vrije bericht van de PBK-module erbij, en gaat hij na of de persoon al in de BRP voorkomt, middels een presentievraag aan de Beheervoorziening BSN (BV BSN).
 
-* Komt de persoon voor in de BRP (als niet-ingezetene), dan haalt hij de PL op uit de Registratie Niet Ingezetenen (RNI) en actualiseert hem aan de hand van de gegevens uit het Vrije bericht en eventuele bron- en identificatiedocumenten.
+* Komt de persoon voor in de BRP (als niet-ingezetene), dan haalt hij de PL op uit de Registratie Niet Ingezetenen (RNI) en actualiseert hem aan de hand van de gegevens uit het Vrije bericht en eventuele bron- en identificatiedocumenten. Dit geldt per definitie voor personen afkomstig van een BES-eiland, omdat de RNI een kopie van hun PIVA-PL bijhoudt zolang zij ingeschreven zijn op het eiland.
 * Komt de persoon niet voor in de BRP, dan legt de ambtenaar een nieuwe PL aan. Hij gebruikt daarbij het A-nummer van de PIVA-PL.
 
 De BRP-V ontvangt van de gemeente een Lg01-bericht over de inschrijving, waardoor een sleutelrubriek uit de BRP-autorisatietabelregel van de PBK-module wijzigt. Op basis daarvan stuurt BRP-V een conditionele verstrekking (<<Ag21,Ag21>>) naar de PBK-module. Die meldt aan het eiland van vertrek dat de persoon zich in de Nederlandse gemeente heeft ingeschreven (met een <<Mi01,Mi01>>), en verwijdert de persoonsgegevens die zij tijdelijk had opgeslagen.
@@ -208,7 +208,7 @@ Als de persoon zich niet binnen een jaar heeft ingeschreven in de opgegeven of e
 
 [.text-center,#berichtenuitwisseling-bij-migratie-van-gemeente-naar-eiland]
 .Berichtenuitwisseling bij een migratie van een Nederlandse gemeente naar een eiland
-image::../images/image3-cropped.svg[width=720,pdfwidth=80%]
+image::../images/tekening3.svg[]
 
 Een persoon meldt aan de balie burgerzaken van de Nederlandse gemeente waar hij momenteel staat ingeschreven dat hij emigreert naar een van de eilanden in het Caribisch deel van het Koninkrijk. De ambtenaar van dienst actualiseert zijn persoonslijst met het aanstaande adres op het betreffende eiland in het adres buitenland en schort de PL op met reden E (Emigratie). Hij geeft de persoon een uitschrijfbewijs mee.
 
@@ -216,7 +216,7 @@ De persoonslijst gaat over naar de RNI, en de BRP-V wordt bijgewerkt via een Lg0
 
 ==== Happy flow
 
-Bij aankomst op het eiland meldt de persoon zich bij de afdeling burgerzaken. Op basis van het uitschrijfbewijs dat de persoon bij zich heeft, zoekt de ambtenaar de persoonsgegevens op die de PBK-module heeft aangeleverd. Hij gaat vervolgens na of de persoon al is ingeschreven in de PIVA van het eiland. Is dat het geval, dan zal de ambtenaar de bestaande PL actualiseren met gegevens uit het bericht (<<Mm01,Mm01>>) van de PBK-module of eventuele bron- en identiteitsdocumenten. Anders legt hij een nieuwe PL aan. Daarbij neemt hij het A-nummer uit de BRP over.
+Bij aankomst op het eiland meldt de persoon zich bij de afdeling burgerzaken. Op basis van het uitschrijfbewijs dat de persoon bij zich heeft, zoekt de ambtenaar de persoonsgegevens op die de PBK-module heeft aangeleverd. Hij gaat vervolgens na of de persoon al is ingeschreven in de PIVA van het eiland. Is dat het geval, dan zal de ambtenaar de bestaande PL actualiseren met gegevens uit het bericht (<<Mm01,Mm01>>) van de PBK-module of eventuele bron- en identiteitsdocumenten. Anders legt hij een nieuwe PL aan. Daarbij neemt hij het A-nummer uit de BRP over, en in geval van de drie BES-eilanden ook het BSN.
 
 Nadat de inschrijving is voltooid, brengt de PIVA de PBK-module daarvan op de hoogte met een bericht (<<Mq01,Mq01>>). Naar aanleiding hiervan verwijdert de PBK-module de tijdelijk opgeslagen persoonsgegevens.
 
@@ -235,13 +235,13 @@ Als de persoon zich niet binnen een jaar heeft ingeschreven op het opgegeven of 
 
 [.text-center,#berichtenuitwisseling-bij-migratie-tussen-eilanden]
 .Berichtenuitwisseling bij een migratie tussen twee eilanden
-image::../images/image4-cropped.svg[width=720,pdfwidth=80%]
+image::../images/tekening4.svg[]
 
 Een persoon meldt zich aan de balie Burgerzaken van het eiland waar hij op dat moment woont, en kondigt zijn vertrek naar een van de vijf andere eilanden in het Caribisch deel van het Koninkrijk aan. De ambtenaar registreert het nieuwe adres op de persoonslijst in het adres buitenland in de PIVA en schort de PL vervolgens op met reden E (Emigratie). Hij geeft de persoon een uitschrijfbewijs mee. De PIVA van het eiland van vertrek stuurt een bericht van de aankomende migratie naar het eiland van vesting (<<Mo01,Mo01>>), met daarin de persoonsgegevens van de betreffende persoon.
 
 ==== Happy flow
 
-Als de persoon zich op het eiland van vestiging meldt dat hij bij zijn vertrek had opgegeven, zoekt de ambtenaar aldaar op basis van het uitschrijfbewijs het toegezonden <<Mo01,Mo01>>-bericht op. Hij controleert vervolgens of de persoon al eerder ingeschreven is geweest op het eiland. Als dat het geval is, actualiseert hij de al bestaande PL. Anders schrijft hij de persoon in, en neemt daarbij het A-nummer van het eiland van vertrek over. Na de inschrijving genereert de PIVA een bericht ter bevestiging aan het eiland van vertrek (<<Mi01,Mi01>>).
+Als de persoon zich op het eiland van vestiging meldt dat hij bij zijn vertrek had opgegeven, zoekt de ambtenaar aldaar op basis van het uitschrijfbewijs het toegezonden <<Mo01,Mo01>>-bericht op. Hij controleert vervolgens of de persoon al eerder ingeschreven is geweest op het eiland. Als dat het geval is, actualiseert hij de al bestaande PL. Anders schrijft hij de persoon in, en neemt daarbij het A-nummer van het eiland van vertrek over. Is er sprake van een verhuizing tussen twee BES-eilanden , dan neemt hij ook het BSN over; bij een verhuizing van of naar een CAS-eiland is dit niet van toepassing. Na de inschrijving genereert de PIVA een bericht ter bevestiging aan het eiland van vertrek (<<Mi01,Mi01>>).
 
 ==== Persoon meldt zich op ander eiland 
 
@@ -258,7 +258,7 @@ Als de persoon zich niet binnen een jaar heeft ingeschreven op het opgegeven eil
 
 [.text-center,#uitwisseling-van-vrije-berichten]
 .Uitwisseling van vrije berichten
-image::../images/image5-cropped.svg[width=720,pdfwidth=80%]
+image::../images/tekening5.svg[]
 
 De eilanden kunnen vrije berichten (<<Vb01,Vb01>>) uitwisselen met elkaar en met de PBK-module.
 
@@ -278,7 +278,7 @@ Zeker niet alle gegevens op de persoonslijsten van PIVA en BRP worden uitgewisse
 
 [.text-center,#uitgewisselde-categorieen]
 .Uitgewisselde categorieën gegevens op de persoonslijst
-image::../images/image6-cropped.svg[width=720,pdfwidth=80%]
+image::../images/tekening6.svg[]
 
 === Niet uitgewisselde categorieën
 
@@ -305,7 +305,8 @@ In de uitgewisselde categorieën zijn niet alle elementen opgenomen. Onderstaand
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.16+|01/51 .16+|Persoon |01 |Identificatie­nummers |01.10 |A-nummer
+.16+|01/51 .16+|Persoon .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+|01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/predicaat
 |02.30 |Voorvoegsel geslachtsnaam
@@ -324,9 +325,9 @@ In de uitgewisselde categorieën zijn niet alle elementen opgenomen. Onderstaand
 |86 |Opneming |86.10 |Datum van opneming
 |===
 
-In de gegevensset uit het LO BES komt element 01.20 ID-nummer persoon voor. Dit nummer is alleen relevant op het eiland dat het heeft uitgegeven. Het is daarom niet zinvol dit element uit te wisselen. N.B. Dit geldt niet alleen voor categorie 01/51 Persoon, maar ook voor 02/52 Ouder1, 03/53 Ouder2, 05/55 Huwelijk/geregistreerd partnerschap en 09/59 Kind.
+In de gegevensset uit het LO BES komt element 01.30 ID-nummer persoon voor. Dit nummer is alleen relevant op het eiland dat het heeft uitgegeven. Het is daarom niet zinvol dit element uit te wisselen. N.B. Dit geldt niet alleen voor categorie 01/51 Persoon, maar ook voor 02/52 Ouder1, 03/53 Ouder2, 05/55 Huwelijk/geregistreerd partnerschap en 09/59 Kind.
 
-In de gegevensset uit het LO BRP komt element 01.20 Burgerservicenummer voor. De eilanden kennen dit nummer niet; het is daarom niet zinvol dit uit te wisselen.
+In de gegevensset van het LO BES komt element 01.20 Burgerservicenummer voor. Dit gegeven wordt alleen uitgewisseld tussen Nederland en de openbare lichamen Bonaire, Saba en Sint Eustatius, en tussen de openbare lichamen onderling. De Caribische landen Aruba, Curaçao en Sint Maarten gebruiken het burgerservicenummer niet. Daarom wordt dit nummer niet uitgewisseld als bij een verhuizing tenminste één van de Caribische landen is betrokken. N.B. Dit geldt niet alleen voor categorie 01/51 Persoon, maar ook voor 02/52 Ouder1, 03/53 Ouder2, 05/55 Huwelijk/geregistreerd partnerschap en 09/59 Kind.
 
 Zowel in het LO BES als in het LO BRP komen de elementen 20.10 Vorig A-nummer en 02.20 Volgend A-nummer voor. Deze gegevens betekenen in de uitwisseling van gegevens binnen het Koninkrijk echter niets en ontbreken dus hier.
 
@@ -335,7 +336,8 @@ Zowel in het LO BES als in het LO BRP komen de elementen 20.10 Vorig A-nummer en
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.16+|02/52 .16+|Ouder1 |01 |Identificatie­nummers |01.10 |A-nummer
+.16+|02/52 .16+|Ouder1 .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+|01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/predicaat
 |02.30 |Voorvoegsel geslachtsnaam
@@ -359,7 +361,8 @@ Zowel in het LO BES als in het LO BRP komen de elementen 20.10 Vorig A-nummer en
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.17+|03/53 .17+|Ouder2 |01 |Identificatie­nummers |01.10 |A-nummer
+.17+|03/53 .17+|Ouder2 .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+|01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/predicaat
 |02.30 |Voorvoegsel geslachtsnaam
@@ -401,7 +404,8 @@ In de gegevensset uit het LO BRP komt element 73.10 EU-persoonsnummer voor. Het 
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.25+|05/55 .25+|Huwelijk/ geregistreerd partner­schap |01 |Identificatie­nummers |01.10 |A-nummer
+.25+|05/55 .25+|Huwelijk/ geregistreerd partner­schap .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+|01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/ predicaat
 |02.30 |Voorvoegsel geslachtsnaam
@@ -479,7 +483,8 @@ Het LO BRP kent enkele elementen in de categorie Verblijfplaats, die in het LO B
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.16+|09/59 .16+|Kind |01 |Identificatienummers |01.10 |A-nummer
+.16+|09/59 .16+|Kind .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+|01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/ predicaat
 |02.30 |Voorvoegsel geslachtsnaam
@@ -560,48 +565,53 @@ Er is een set berichten gedefinieerd voor de communicatie tussen de eilanden ond
 
 ==== Berichtdefinities
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Ma01]]Ma01
-|Berichtnaam |Versturen antwoord
-|Omschrijving |Het eiland waar de persoon zich uiteindelijk heeft gevestigd, verstuurt dit bericht als het de persoonsgegevens heeft verwerkt
-|Verzender |Eiland
-|Ontvanger |PBK-module of het eiland van vestiging
-|Volgt op |<<Mz01,Mz01>>
-|Gevolgd door |<<Me01,Me01>>
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Ma01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Ma01
+Berichtnaam:: Versturen antwoord
+Omschrijving:: Het eiland waar de persoon zich uiteindelijk heeft gevestigd, verstuurt dit bericht als het de persoonsgegevens heeft verwerkt
+Te verzenden door:: Eiland van vertrek
+Te verzenden aan:: Eiland van vestiging, PBK-module
+Volgt op bericht:: <<Mz01,Mz01>>
+Wordt gevolgd door:: <<Me01,Me01>>
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities
-|Berichtinhoud a|
-01.01.10 A-nummer +
+Inhoud bevat:: 01.01.10 A-nummer +
 Indien aanwezig aangevuld met: +
+01.01.20 Burgerservicenummer +
 01.02.10 Voornamen +
 01.02.20 Adellijke titel/predicaat +
 01.02.30 Voorvoegsel geslachtsnaam +
-01.02.40 (Geslachts)naam +
+01.02.40 Geslachtsnaam +
 01.03.10 Geboortedatum +
 01.03.20 Geboorteplaats +
 01.03.30 Geboorteland +
 01.04.10 Geslachtsaanduiding +
 08.09.10 Eiland van inschrijving +
 08.09.20 Datum inschrijving
-|===
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Me01]]Me01
-|Berichtnaam |Melding vestiging ander eiland
-|Omschrijving |De PBK-module of het eiland van vestiging stuurt dit bericht aan het eiland dat de persoon bij zijn vertrek heeft opgegeven als eiland van vestiging
-|Verzender |PBK-module of het eiland van vestiging
-|Ontvanger |Eiland
-|Volgt op |<<Ma01,Ma01>>
-|Gevolgd door |-
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Me01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Me01
+Berichtnaam:: Melding vestiging ander eiland
+Omschrijving:: De PBK-module of het eiland van vestiging stuurt dit bericht aan het eiland dat de persoon bij zijn vertrek heeft opgegeven als eiland van vestiging
+Te verzenden door:: Eiland van vestiging, PBK-module
+Te verzenden aan:: Eiland van vertrek
+Volgt op bericht:: <<Ma01,Ma01>>
+Wordt gevolgd door:: {empty}
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities
-|Berichtinhoud a|
-01.01.10 A-nummer +
+Inhoud bevat:: 01.01.10 A-nummer +
 Indien aanwezig aangevuld met: +
+01.01.20 Burgerservicenummer +
 01.02.10 Voornamen +
 01.02.20 Adellijke titel/predicaat +
 01.02.30 Voorvoegsel geslachtsnaam +
@@ -610,18 +620,20 @@ Indien aanwezig aangevuld met: +
 01.03.20 Geboorteplaats +
 01.03.30 Geboorteland +
 01.04.10 Geslachtsaanduiding
-|===
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mf01]]Mf01
-|Berichtnaam |Fout: persoonsgegevens niet aanwezig
-|Omschrijving |De PBK-module of het eiland van vertrek verstuurt dit foutbericht als zij niet kan voldoen aan het verzoek om persoonsgegevens toe te zenden, omdat zij de opgevraagde persoon niet kan vinden
-|Verzender |PBK-module of eiland van vertrek
-|Ontvanger |Eiland
-|Volgt op |<<Mv01,Mv01>>
-|Gevolgd door |-
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mf01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mf01
+Berichtnaam:: Fout: persoonsgegevens niet aanwezig
+Omschrijving:: De PBK-module of het eiland van vertrek verstuurt dit foutbericht als zij niet kan voldoen aan het verzoek om persoonsgegevens toe te zenden, omdat zij de opgevraagde persoon niet kan vinden
+Te verzenden door:: Eiland van vertrek, PBK-module
+Te verzenden aan:: Eiland van vestiging
+Volgt op bericht:: <<Mv01,Mv01>>
+Wordt gevolgd door:: {empty}
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities +
 foutreden = 1 positie +
@@ -632,62 +644,69 @@ U eenduidige identificatie niet gelukt +
 V persoon is verhuisd naar gemeente “code” +
 gemeente = 4 posities +
 A-nummer = 10 posities
-|Berichtinhoud |De bij het <<Mv01,Mv01>>-bericht opgegeven identificerende gegevens
-|===
+Inhoud bevat:: De bij het <<Mv01,Mv01>>-bericht opgegeven identificerende gegevens
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mi01]]Mi01
-|Berichtnaam |Melding inschrijving eiland of NL
-|Omschrijving |De PBK-module of het eiland van vestiging bevestigt met dit bericht aan het eiland van vertrek dat de persoon is ingeschreven in een Nederlandse gemeente of op een eiland
-|Verzender |PBK-module of eiland van vestiging
-|Ontvanger |Eiland
-|Volgt op |<<Mo01,Mo01>>
-|Gevolgd door |-
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mi01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mi01
+Berichtnaam:: Melding inschrijving eiland of NL
+Omschrijving:: De PBK-module of het eiland van vestiging bevestigt met dit bericht aan het eiland van vertrek dat de persoon is ingeschreven in een Nederlandse gemeente of op een eiland
+Te verzenden door:: Eiland van vestiging, PBK-module
+Te verzenden aan:: Eiland van vertrek
+Volgt op bericht:: <<Mo01,Mo01>>
+Wordt gevolgd door:: {empty}
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities
-|Berichtinhoud a|
-Categorie 01 Persoon: +
+Inhoud bevat:: Categorie 01 Persoon: +
 01.01.10 A-nummer +
+01.01.20 Burgerservicenummer (tenzij een van de CAS-eilanden bij de berichtuitwisseling betrokken is) +
 Groep 02 Naam +
 Groep 03 Geboorte +
++
 Categorie 08 Verblijfplaats: +
 08.09.10 Eiland of gemeente van inschrijving +
 08.09.20 Datum inschrijving
-|===
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mm01]]Mm01
-|Berichtnaam |Melding aankomende verhuizing (van NL naar de eilanden)
-|Omschrijving |De PBK-module stuurt met dit bericht de persoonsgegevens (inclusief historie) naar het eiland van vestiging, nadat zij van BRP-V bericht heeft ontvangen over een aankomende vestiging
-|Verzender |PBK-module
-|Ontvanger |Eiland
-|Volgt op |-
-|Gevolgd door |<<Mq01,Mq01>>
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mm01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mm01
+Berichtnaam:: Melding aankomende verhuizing (van NL naar de eilanden)
+Omschrijving:: De PBK-module stuurt met dit bericht de persoonsgegevens (inclusief historie) naar het eiland van vestiging, nadat zij van BRP-V bericht heeft ontvangen over een aankomende vestiging
+Te verzenden door:: PBK-module
+Te verzenden aan:: Eiland van vestiging
+Volgt op bericht:: {empty}
+Wordt gevolgd door:: <<Mq01,Mq01>>
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities +
 herhaling = 1 positie
-|Berichtinhoud |De persoonsgegevens (inclusief historie)
-|===
+Inhoud bevat:: De persoonsgegevens (inclusief historie)
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mn01]]Mn01
-|Berichtnaam |Melding niet ingeschreven
-|Omschrijving |De PBK-module stuurt dit bericht terug naar het eiland vanwaar een persoon vertrokken is, als blijkt dat die persoon zich na een jaar nog niet heeft gemeld op het eiland of in de gemeente van vestiging
-|Verzender |PBK-module
-|Ontvanger |Eiland
-|Volgt op |-
-|Gevolgd door |-
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mn01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mn01
+Berichtnaam:: Melding niet ingeschreven
+Omschrijving:: De PBK-module stuurt dit bericht terug naar het eiland vanwaar een persoon vertrokken is, als blijkt dat die persoon zich na een jaar nog niet heeft gemeld op het eiland of in de gemeente van vestiging
+Te verzenden door:: PBK-module
+Te verzenden aan:: Eiland van vertrek
+Volgt op bericht:: {empty}
+Wordt gevolgd door:: {empty}
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities
-|Berichtinhoud a|
-01.01.10 A-nummer +
+Inhoud bevat:: 01.01.10 A-nummer +
 Indien aanwezig aangevuld met: +
+01.01.20 Burgerservicenummer +
 01.02.10 Voornamen +
 01.02.20 Adellijke titel/predicaat +
 01.02.30 Voorvoegsel geslachtsnaam +
@@ -698,39 +717,43 @@ Indien aanwezig aangevuld met: +
 01.04.10 Geslachtsaanduiding +
 08.09.10 Eiland of gemeente van inschrijving +
 08.09.20 Datum inschrijving
-|===
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mo01]]Mo01
-|Berichtnaam |Opsturen persoonsgegevens
-|Omschrijving |Als een persoon van een eiland vertrekt, stuurt dat eiland met dit bericht de persoonsgegevens (inclusief historie) naar de PBK-module. Die stuurt het vervolgens door naar het eiland van vestiging; of genereert een Vrij bericht en stuurt dat naar de gemeente van vestiging.
-|Verzender |Eiland
-|Ontvanger |PBK-module of eiland
-|Volgt op |-
-|Gevolgd door |<<Mi01,Mi01>>
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mo01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mo01
+Berichtnaam:: Opsturen persoonsgegevens
+Omschrijving:: Als een persoon van een eiland vertrekt, stuurt dat eiland met dit bericht de persoonsgegevens (inclusief historie) naar de PBK-module. Die stuurt het vervolgens door naar het eiland van vestiging; of genereert een Vrij bericht en stuurt dat naar de gemeente van vestiging.
+Te verzenden door:: Eiland van vertrek
+Te verzenden aan:: PBK-module of eiland van vestiging
+Volgt op bericht:: {empty}
+Wordt gevolgd door:: <<Mi01,Mi01>>
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities +
 herhaling = 1 positie
-|Berichtinhoud |De persoonsgegevens (inclusief historie) uit PIVA
-|===
+Inhoud bevat:: De persoonsgegevens (inclusief historie) uit PIVA
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mq01]]Mq01
-|Berichtnaam |Versturen antwoord
-|Omschrijving |Het eiland verstuurt dit bericht nadat het ontvangen persoonsgegevens heeft verwerkt
-|Verzender |Eiland
-|Ontvanger |PBK-module
-|Volgt op |<<Mm01,Mm01>>
-|Gevolgd door |-
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mq01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mq01
+Berichtnaam:: Versturen antwoord
+Omschrijving:: Het eiland verstuurt dit bericht nadat het ontvangen persoonsgegevens heeft verwerkt
+Te verzenden door:: Eiland van vestiging
+Te verzenden aan:: PBK-module
+Volgt op bericht:: <<Mm01,Mm01>>
+Wordt gevolgd door:: {empty}
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities
-|Berichtinhoud a|
-01.01.10 A-nummer +
+Inhoud bevat:: 01.01.10 A-nummer +
 Indien aanwezig aangevuld met: +
+01.01.20 Burgerservicenummer +
 01.02.10 Voornamen +
 01.02.20 Adellijke titel/predicaat +
 01.02.30 Voorvoegsel geslachtsnaam +
@@ -741,25 +764,27 @@ Indien aanwezig aangevuld met: +
 01.04.10 Geslachtsaanduiding +
 08.09.10 Gemeente van inschrijving +
 08.09.10 Datum inschrijving
-|===
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mv01]]Mv01
-|Berichtnaam |Verzoek toezending persoonsgegevens
-|Omschrijving |Als een persoon zich op een eiland komt inschrijven vanaf een ander eiland of vanuit Nederland, maar het eiland heeft geen persoonsgegevens ontvangen, dan vraagt het met dit bericht die persoonsgegevens op bij de PBK-module of bij het eiland van vertrek
-|Verzender |Eiland
-|Ontvanger |PBK-module of eiland
-|Volgt op |-
-|Gevolgd door |<<Mz01,Mz01>> \| <<Mf01,Mf01>>
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mv01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mv01
+Berichtnaam:: Verzoek toezending persoonsgegevens
+Omschrijving:: Als een persoon zich op een eiland komt inschrijven vanaf een ander eiland of vanuit Nederland, maar het eiland heeft geen persoonsgegevens ontvangen, dan vraagt het met dit bericht die persoonsgegevens op bij de PBK-module of bij het eiland van vertrek
+Te verzenden door:: Eiland van vestiging
+Te verzenden aan:: Eiland van vertrek, PBK-module
+Volgt op bericht:: {empty}
+Wordt gevolgd door:: <<Mz01,Mz01>> \| <<Mf01,Mf01>>
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities +
 herhaling = 1 positie
-|Berichtinhoud a|
-01.01.10 A-nummer +
+Inhoud bevat:: 01.01.10 A-nummer +
 01.02.40 Geslachtsnaam +
 Eventueel aangevuld met: +
+01.01.20 Burgerservicenummer +
 01.02.10 Voornamen +
 01.02.20 Adellijke titel/predikaat +
 01.02.30 Voorvoegsel geslachtsnaam +
@@ -768,18 +793,20 @@ Eventueel aangevuld met: +
 01.03.20 Geboorteplaats +
 01.03.30 Geboorteland +
 01.04.10 Geslachtsaanduiding
-|===
 
-[width="100%",cols="25%,75%"]
-|===
-|Berichtnummer |[[Mz01]]Mz01
-|Berichtnaam |Melding aankomende verhuizing (van NL naar de eilanden) – exceptie
-|Omschrijving |De PBK-module stuurt met dit bericht de persoonsgegevens (inclusief historie) van de Nederlandse gemeente naar het eiland van vestiging, op verzoek van dat eiland
-|Verzender |PBK-module
-|Ontvanger |Eiland
-|Volgt op |<<Mv01,Mv01>>
-|Gevolgd door |<<Ma01,Ma01>>
-|Kopinhoud a|
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
+
+[#Mz01]
+[horizontal,labelwidth=35%,itemwidth=65%]
+Berichtnummer:: Mz01
+Berichtnaam:: Melding aankomende verhuizing (van NL naar de eilanden) – exceptie
+Omschrijving:: De PBK-module stuurt met dit bericht de persoonsgegevens (inclusief historie) van de Nederlandse gemeente naar het eiland van vestiging, op verzoek van dat eiland
+Te verzenden door:: PBK-module
+Te verzenden aan:: Eiland van vestiging
+Volgt op bericht:: <<Mv01,Mv01>>
+Wordt gevolgd door:: <<Ma01,Ma01>>
+Kop bevat::
 random key = 8 posities +
 berichtnummer = 4 posities +
 herhaling = 1 positie +
@@ -788,8 +815,10 @@ A PL is actueel +
 E PL opgeschort wegens emigratie m.i.v. “datum” +
 M PL opgeschort wegens Ministerieel besluit m.i.v. “datum” +
 datum = 8 posities
-|Berichtinhoud |De persoonsgegevens (inclusief historie)
-|===
+Inhoud bevat:: De persoonsgegevens (inclusief historie)
+
+ifdef::backend-pdf[<<<]
+ifdef::backend-html5[''']
 
 === Uitgewisselde berichten tussen BRP en PBK-module
 
