@@ -1,0 +1,7 @@
+name: lo-brp
+version: ~
+title: LO BRP
+start_page: LO-BRP.adoc
+nav: 
+asciidoc:
+  attributes:
