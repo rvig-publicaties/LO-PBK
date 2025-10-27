@@ -21,6 +21,7 @@
 :appendix-refsig: appendix
 :stem: latexmath
 :eqnums: all
+:imagesdir: ../images
 
 //Wijzigingenoverzicht - geen genummerde paragraaf 
 
@@ -95,7 +96,7 @@ Onderstaand diagram geeft de verschillende componenten van de berichtuitwisselin
 
 [.text-center,#componenten-in-de-berichtenuitwisseling]
 .Componenten in de berichtenuitwisseling
-image::../images/tekening1.svg[]
+image::tekening1.svg[]
 
 === Typen berichten
 
@@ -180,7 +181,7 @@ Onderstaande afbeeldingen geven de berichtencycli weer waarmee de scenario’s w
 
 [.text-center,#berichtenuitwisseling-bij-migratie-van-eiland-naar-gemeente]
 .Berichtenuitwisseling bij een migratie van een eiland naar een Nederlandse gemeente
-image::../images/tekening2.svg[]
+image::tekening2.svg[]
 
 Een persoon komt naar de afdeling burgerzaken op het eiland waar hij momenteel is ingeschreven. Hij meldt daar dat hij gaat emigreren naar Nederland en geeft daarbij de gemeente op waar hij zich wil vestigen. De ambtenaar van dienst registreert de emigratie in PIVA en geeft de persoon een uitschrijfbewijs mee. De PIVA van het eiland stuurt een bericht van de aankomende migratie naar de PBK-module (<<Mo01,Mo01>>), met daarin de persoonsgegevens van de betreffende persoon. De PBK-module slaat die gegevens tijdelijk op, genereert een Vrij bericht (<<Vb01,Vb01>>) en stuurt dat naar de opgegeven gemeente.
 
@@ -208,7 +209,7 @@ Als de persoon zich niet binnen een jaar heeft ingeschreven in de opgegeven of e
 
 [.text-center,#berichtenuitwisseling-bij-migratie-van-gemeente-naar-eiland]
 .Berichtenuitwisseling bij een migratie van een Nederlandse gemeente naar een eiland
-image::../images/tekening3.svg[]
+image::tekening3.svg[]
 
 Een persoon meldt aan de balie burgerzaken van de Nederlandse gemeente waar hij momenteel staat ingeschreven dat hij emigreert naar een van de eilanden in het Caribisch deel van het Koninkrijk. De ambtenaar van dienst actualiseert zijn persoonslijst met het aanstaande adres op het betreffende eiland in het adres buitenland en schort de PL op met reden E (Emigratie). Hij geeft de persoon een uitschrijfbewijs mee.
 
@@ -235,7 +236,7 @@ Als de persoon zich niet binnen een jaar heeft ingeschreven op het opgegeven of 
 
 [.text-center,#berichtenuitwisseling-bij-migratie-tussen-eilanden]
 .Berichtenuitwisseling bij een migratie tussen twee eilanden
-image::../images/tekening4.svg[]
+image::tekening4.svg[]
 
 Een persoon meldt zich aan de balie Burgerzaken van het eiland waar hij op dat moment woont, en kondigt zijn vertrek naar een van de vijf andere eilanden in het Caribisch deel van het Koninkrijk aan. De ambtenaar registreert het nieuwe adres op de persoonslijst in het adres buitenland in de PIVA en schort de PL vervolgens op met reden E (Emigratie). Hij geeft de persoon een uitschrijfbewijs mee. De PIVA van het eiland van vertrek stuurt een bericht van de aankomende migratie naar het eiland van vesting (<<Mo01,Mo01>>), met daarin de persoonsgegevens van de betreffende persoon.
 
@@ -258,7 +259,7 @@ Als de persoon zich niet binnen een jaar heeft ingeschreven op het opgegeven eil
 
 [.text-center,#uitwisseling-van-vrije-berichten]
 .Uitwisseling van vrije berichten
-image::../images/tekening5.svg[]
+image::tekening5.svg[]
 
 De eilanden kunnen vrije berichten (<<Vb01,Vb01>>) uitwisselen met elkaar en met de PBK-module.
 
@@ -278,7 +279,7 @@ Zeker niet alle gegevens op de persoonslijsten van PIVA en BRP worden uitgewisse
 
 [.text-center,#uitgewisselde-categorieen]
 .Uitgewisselde categorieën gegevens op de persoonslijst
-image::../images/tekening6.svg[]
+image::tekening6.svg[]
 
 === Niet uitgewisselde categorieën
 
