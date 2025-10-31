@@ -242,7 +242,7 @@ Een persoon meldt zich aan de balie Burgerzaken van het eiland waar hij op dat m
 
 ==== Happy flow
 
-Als de persoon zich op het eiland van vestiging meldt dat hij bij zijn vertrek had opgegeven, zoekt de ambtenaar aldaar op basis van het uitschrijfbewijs het toegezonden <<Mo01,Mo01>>-bericht op. Hij controleert vervolgens of de persoon al eerder ingeschreven is geweest op het eiland. Als dat het geval is, actualiseert hij de al bestaande PL. Anders schrijft hij de persoon in, en neemt daarbij het A-nummer van het eiland van vertrek over. Is er sprake van een verhuizing tussen twee BES-eilanden , dan neemt hij ook het BSN over; bij een verhuizing van of naar een CAS-eiland is dit niet van toepassing. Na de inschrijving genereert de PIVA een bericht ter bevestiging aan het eiland van vertrek (<<Mi01,Mi01>>).
+Als de persoon zich op het eiland van vestiging meldt dat hij bij zijn vertrek had opgegeven, zoekt de ambtenaar aldaar op basis van het uitschrijfbewijs het toegezonden <<Mo01,Mo01>>-bericht op. Hij controleert vervolgens of de persoon al eerder ingeschreven is geweest op het eiland. Als dat het geval is, actualiseert hij de al bestaande PL. Anders schrijft hij de persoon in, en neemt daarbij het A-nummer van het eiland van vertrek over. Is er sprake van een verhuizing tussen twee BES-eilanden, dan neemt hij ook het BSN over; bij een verhuizing van of naar een CAS-eiland is dit niet van toepassing. Na de inschrijving genereert de PIVA een bericht ter bevestiging aan het eiland van vertrek (<<Mi01,Mi01>>).
 
 ==== Persoon meldt zich op ander eiland 
 
@@ -306,7 +306,7 @@ In de uitgewisselde categorieën zijn niet alle elementen opgenomen. Onderstaand
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.16+|01/51 .16+|Persoon .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+.18+|01/51 .18+|Persoon .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
 |01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/predicaat
@@ -337,7 +337,7 @@ Zowel in het LO BES als in het LO BRP komen de elementen 20.10 Vorig A-nummer en
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.16+|02/52 .16+|Ouder1 .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+.18+|02/52 .18+|Ouder1 .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
 |01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/predicaat
@@ -362,7 +362,7 @@ Zowel in het LO BES als in het LO BRP komen de elementen 20.10 Vorig A-nummer en
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.17+|03/53 .17+|Ouder2 .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+.18+|03/53 .18+|Ouder2 .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
 |01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/predicaat
@@ -484,7 +484,7 @@ Het LO BRP kent enkele elementen in de categorie Verblijfplaats, die in het LO B
 [width="100%",cols="8%,12%,8%,27%,8%,37%",options="header",]
 |===
 2+|Categorie 2+|Groep 2+|Element
-.16+|09/59 .16+|Kind .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
+.17+|09/59 .17+|Kind .2+|01 .2+|Identificatie­nummers |01.10 |A-nummer
 |01.20 |Burgerservicenummer
 .4+|02 .4+|Naam |02.10 |Voornamen
 |02.20 |Adellijke titel/ predicaat
